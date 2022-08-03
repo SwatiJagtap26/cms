@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-workspace",
+  "version": "1.0.1",
+  "description": "a cms in NODE.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "Swati Jagtap",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect": "^3.7.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.3",
+    "faker": "^6.6.6",
+    "flash": "^1.1.0",
+    "handlebars": "^4.7.7",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.5",
+    "mongoose-url-slugs": "^1.0.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0"
+  }
+}
